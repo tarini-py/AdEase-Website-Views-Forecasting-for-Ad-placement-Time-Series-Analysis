@@ -1,4 +1,10 @@
-# AdEase — Website Views Forecasting for Ad Placement
+---
+
+Part of the [DSML Business Case Studies](https://github.com/tarini-py/DSML-Business-Case-Studies) portfolio.
+
+---
+
+# AdEase - Website Views Forecasting for Ad placement(Time Series Analysis)
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Wrangling-150458?logo=pandas&logoColor=white)
@@ -7,6 +13,14 @@
 ![scikit--learn](https://img.shields.io/badge/scikit--learn-Metrics-F7931E?logo=scikitlearn&logoColor=white)
 
 > A multi-language time series forecasting pipeline that predicts daily Wikipedia page views so AdEase can place the right ads, on the right pages, at the right time — cutting forecast error to **5.57% MAPE** on the highest-traffic segment, and generalizing automatically across 8 languages.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tarini%20Prasad%20Samantray-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mr-tps/)
+
+## 🚀 Run on Google Colab
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1BwCdtosCGyofHvkO5x94A1SL94pazCXU?usp=sharing)
+
+## 📊 View on Kaggle
+[![Kaggle](https://img.shields.io/badge/Open%20in-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/tariniprasad0x/out-adease-time-series-website-views-forecasting)
 
 ## Table of Contents
 - [Overview](#overview)
@@ -242,5 +256,3 @@ pip install pandas numpy matplotlib seaborn statsmodels prophet scikit-learn
 The notebook pulls `train_1.csv` and `Exog_Campaign_eng` via `gdown` from Google Drive at runtime. Run the notebook top to bottom — the automated pipeline section will re-detect parameters and re-fit both models for all 8 languages, so it takes noticeably longer to execute than the earlier single-series sections.
 
 ---
-
-*Part of the [DSML-Business-Case-Studies](../) portfolio.*
